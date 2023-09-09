@@ -1,1 +1,1 @@
-pip install numpy pandas matplotlib.pyplot yfinance
+pip install numpy pandas matplotlib tkinter fuzzywuzzy pyautogui
