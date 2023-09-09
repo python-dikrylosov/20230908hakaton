@@ -15,7 +15,7 @@ while True:
         gruz = input("введите название груза ( \n1) ящик \n2) автомобиль \n3) тяжеловес \n: ")
         print("создаю документ груза :" + str(gruz) + str(time.time()) + ".txt")
         for i in range(1):
-            filename = "data/" + str(gruz) + str(time.time()) + ".txt"
+            filename = str(gruz) + str(time.time()) + ".txt"
             if data_neiro[7] == None:
                 data_safe = open(filename,"w")
             elif data_neiro[7] != None:
